@@ -24,11 +24,7 @@ foreach (var fi in new DirectoryInfo("src").GetDirectories())
     var jObj = JsonNode.Parse(yiqidongImageFileContent).AsObject();
     productDict[fi.Name] = jObj["Name"].ToString();
 }
-
-Console.WriteLine("请选择编译项目(一个都不勾选代表全选)：");
-var productDirs = QbSelect.MultiSelect(productDict.ToArray(), selectedForegroundColor: ConsoleColor.Green);
-if (productDirs == null || productDirs.Length == 0)
-    productDirs = productDict.Keys.ToArray();
+var productDirs = productDict.Keys.ToArray();
 foreach (var productDir in productDirs)
 {
     var publishFolder = $"src/{productDir}/bin/Release/publish";
