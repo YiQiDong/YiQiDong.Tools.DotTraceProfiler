@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="_build/_build.csproj" />
+  <Project Path="YiQiDong.Tools.DotTraceProfiler/YiQiDong.Tools.DotTraceProfiler.csproj" />
+</Solution>

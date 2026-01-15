@@ -1,0 +1,10 @@
+﻿{
+  "DefaultId": "YiQiDong.Tools.DotTraceProfiler",
+  "Name": "易启动工具_DotTrace分析器",
+  "Version": "1.0.x.x",
+  "Tags": [ "工具" ],
+  "Description": "[易启动工具_DotTrace分析器]是使用DotTrace分析器对程序分析CPU使用情况的工具。",
+  "Platform": [ "any" ],
+  "Runtime": [ "dotnet-8.0","dotTrace-tools-2020.0"],
+  "AgentStartup": "YiQiDong.Tools.DotTraceProfiler.dll"
+}
