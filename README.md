@@ -1,5 +1,1 @@
-# 易启动工具
-
-最新版本下载
------
-https://cnb.cool/scbeta/YiQiDong/YiQiDong.Tools/-/releases
+# 易启动工具_DotTrace分析器
