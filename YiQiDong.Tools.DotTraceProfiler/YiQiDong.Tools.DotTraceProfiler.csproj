@@ -11,6 +11,6 @@
 
 	<ItemGroup>
 		<DotnetToolReference Include="JetBrains.dotTrace.GlobalTools" Version="2025.3.0.3" />
-		<PackageReference Include="YiQiDong.Core" Version="2026.5.113" />
+		<PackageReference Include="YiQiDong.Core" Version="2026.29.801" />
 	</ItemGroup>
 </Project>

@@ -1,11 +1,10 @@
-﻿using System.ComponentModel;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using Quick.Fields;
 using Quick.Protocol;
 using Quick.Shell.Utils;
+using Quick.Utils;
 using YiQiDong.Agent;
 using YiQiDong.Core;
-using YiQiDong.Core.Utils;
 using YiQiDong.Protocol.V1.Model;
 
 namespace YiQiDong.Tools.DotTraceProfiler.Functions;
